@@ -14,7 +14,7 @@ import { ProjectInterface, SessionInterface } from '@/common.types'
 type Props = {
   type: string
   session: SessionInterface
-  project: ProjectInterface
+  project?: ProjectInterface
 }
 
 const ProjectForm = ({ type, session, project }: Props) => {
