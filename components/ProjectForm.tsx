@@ -42,7 +42,7 @@ const ProjectForm = ({ type, session, project }: Props) => {
     if (!file) return
 
     if (!file.type.includes('image')) {
-      alert('Please select an image file')
+      alert('Please select an image file!')
 
       return
     }
